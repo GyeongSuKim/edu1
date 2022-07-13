@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Global 변수 선언
         dockerRepo = "gyeongsukim/edu1"
-        dockerCredentials = 'test_github_ci_gs'
+        dockerCredentials = 'test_docker_ci_gs'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
